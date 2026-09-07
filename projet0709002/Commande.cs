@@ -60,7 +60,7 @@ namespace projet0709002
 
             foreach (LigneCommande ligne in lesLignesCommande)
             {
-                total = total + ligne.Produit.Prix * ligne.Quantite;
+                total += ligne.Produit.Prix * ligne.Quantite;
             }
 
             return total;
